@@ -20,7 +20,15 @@ Necesitamos recolectar los eventos que se generan en los diferentes dispositivos
 
 ## Decision Outcome
 
-Chosen option: "Event driven"
+Chosen option: "Event driven", because Reactividad en tiempo real: Una arquitectura event-driven está diseñada para manejar eventos en tiempo real y responder de manera reactiva a ellos. En un entorno de factoría inteligente, donde se requiere una notificación inmediata de eventos críticos, como alarmas de sensores, cambios en el estado de la producción o fallos en los equipos, una arquitectura event-driven puede proporcionar una mejor capacidad de respuesta y adaptabilidad.
+
+Escalabilidad y rendimiento: La arquitectura event-driven permite una mayor escalabilidad y rendimiento al distribuir y procesar eventos de manera eficiente. Los eventos pueden ser manejados de forma paralela y distribuida entre los diferentes componentes del sistema, lo que facilita la gestión de grandes volúmenes de eventos en tiempo real. Esto es especialmente importante en una factoría inteligente con múltiples líneas de producción y sensores generando datos constantemente.
+
+Desacoplamiento y evolución: La arquitectura event-driven fomenta el desacoplamiento entre los componentes del sistema. Cada componente puede emitir y consumir eventos de forma independiente, lo que facilita la evolución y actualización de los componentes de manera individual sin afectar al resto del sistema. Esto permite una mayor flexibilidad y adaptabilidad a medida que los requisitos del sistema evolucionan con el tiempo
+
+Integración y extensibilidad: La arquitectura event-driven proporciona un mecanismo de integración flexible y extensible. Los eventos actúan como puntos de integración, permitiendo la comunicación entre diferentes partes del sistema de manera sencilla. Además, la adición de nuevos componentes que generen y consuman eventos se vuelve más fácil y menos disruptiva, lo que facilita la ampliación y mejora del sistema en el futuro.
+
+Notificaciones en tiempo real y mensajería: En un sistema de factoría inteligente, es fundamental contar con notificaciones en tiempo real y un sistema de mensajería para mantener a los operarios informados sobre el estado de la producción, fallos en los sensores y otros eventos relevantes. Una arquitectura event-driven puede proporcionar una base sólida para implementar un sistema de notificaciones y mensajería en tiempo real, permitiendo una comunicación eficiente y oportuna.
 
 ## Pros and Cons of the Options
 
