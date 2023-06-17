@@ -17,6 +17,10 @@ Necesitamos recolectar los eventos que se generan en los diferentes dispositivos
 
 * Event driven
 
+## Decision Outcome
+
+Chosen option: ""
+
 ## Pros and Cons of the Options
 
 ### Event driven
@@ -26,4 +30,3 @@ Necesitamos recolectar los eventos que se generan en los diferentes dispositivos
 * Good, because Reactividad: Al basarse en eventos, el sistema puede responder de manera rápida y proactiva a los cambios y sucesos en la factoría. Los componentes pueden estar a la espera de eventos relevantes y tomar acciones inmediatas en función de ellos. Esto permite una mejor capacidad de respuesta y adaptabilidad a eventos en tiempo real, como alarmas de sensores, cambios en el estado de la producción, etc
 * Good, because Integración y extensibilidad: La arquitectura de eventos facilita la integración de nuevos componentes y servicios en el sistema. Los eventos actúan como puntos de integración, permitiendo la comunicación entre diferentes partes del sistema de manera sencilla. Además, es más fácil extender y agregar nuevas funcionalidades al sistema mediante la incorporación de nuevos componentes que generen y consuman eventos.
 * Good, because Tolerancia a fallos: La arquitectura de eventos puede proporcionar mayor tolerancia a fallos. Si un componente no puede procesar un evento en un momento dado, este se puede encolar y procesar más tarde, evitando la pérdida de información crítica. Además, si un componente falla, los eventos pendientes pueden ser procesados por otros componentes disponibles, evitando interrupciones en el funcionamiento del sistema
-

@@ -18,6 +18,9 @@ Necesitamos recolectar los eventos que se generan en los diferentes dispositivos
 * Event driven
 * Rest
 
+## Decision Outcome
+
+Chosen option: ""
 
 ## Pros and Cons of the Options
 
