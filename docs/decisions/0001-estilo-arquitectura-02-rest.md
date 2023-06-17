@@ -15,8 +15,8 @@ Necesitamos recolectar los eventos que se generan en los diferentes dispositivos
 
 ## Considered Options
 
-* Event driven
 * Rest
+
 
 ## Decision Outcome
 
