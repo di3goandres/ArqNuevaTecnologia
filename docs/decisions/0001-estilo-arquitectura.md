@@ -1,4 +1,4 @@
-# ---
+# Estilo De Arquitectura
 
 * Status: proposed
 * Deciders: Julian luna, Diego Montealegre
