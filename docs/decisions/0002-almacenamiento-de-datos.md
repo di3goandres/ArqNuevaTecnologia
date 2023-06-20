@@ -1,8 +1,8 @@
 # Almacenamiento de datos
 
-* Status: proposed
+* Status: accepted
 * Deciders: Julian Luna, Diego Montealegre
-* Date: 2023-06-17
+* Date: 2023-06-19
 
 ## Context and Problem Statement
 
