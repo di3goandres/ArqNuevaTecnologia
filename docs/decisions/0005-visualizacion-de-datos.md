@@ -16,7 +16,8 @@ Se requiere de un modo de visualización para los siguientes contextos:
 
 ## Considered Options
 
-* MVC
+* MVC - Angular
+* MVC - React
 
 ## Decision Outcome
 
