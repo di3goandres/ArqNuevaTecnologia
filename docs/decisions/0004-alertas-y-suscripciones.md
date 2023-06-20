@@ -1,6 +1,6 @@
 # Alertas y suscripciones
 
-* Status: proposed
+* Status: accepted
 * Deciders: Julian Luna, Diego Montealegre
 * Date: 2023-06-17
 
