@@ -1,6 +1,6 @@
 # Estilo De Arquitectura
 
-* Status: proposed
+* Status: rejected
 * Deciders: Julian luna, Diego Montealegre
 * Date: 2023-06-16
 
