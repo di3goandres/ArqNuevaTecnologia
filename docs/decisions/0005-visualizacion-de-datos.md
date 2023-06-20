@@ -21,7 +21,7 @@ Se requiere de un modo de visualización para los siguientes contextos:
 
 ## Decision Outcome
 
-Chosen option: "MVC"
+Chosen option: "MVC - React"
 
 ### Positive Consequences
 
