@@ -1,6 +1,6 @@
 # ArquitVisualizacion de datos
 
-* Status: proposed
+* Status: rejected
 * Deciders: Julian Luna, Diego Montealegre
 * Date: 2023-06-20
 
