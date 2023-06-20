@@ -1,6 +1,6 @@
 # Patron alertas y suscripciones
 
-* Status: proposed
+* Status: accepted
 * Deciders: Julian Luna, Diego Montealegre
 * Date: 2023-06-20
 
@@ -17,6 +17,13 @@ Gestión de suscripciones: Se debe implementar un mecanismo que permita a los op
 Personalización de alertas: Idealmente, el sistema debe permitir cierto grado de personalización de las alertas para adaptarse a las necesidades individuales de los operarios. Pueden configurar ciertos criterios o condiciones específicas para recibir alertas personalizadas según su rol, ubicación o preferencias.
 
 Registro y seguimiento de alertas: Es importante mantener un registro de todas las alertas generadas y enviadas, incluyendo información relevante como la fecha y hora, el tipo de alerta y los destinatarios. Esto permite un seguimiento y análisis posterior de las alertas para evaluar su eficacia y tomar medidas correctivas si es necesario.
+
+## Decision Drivers
+
+* RF-004	Mensajería y suscripción a eventos
+* RF-008	Generación de alertas y notificaciones
+* RF-0010	Configuración de preferencias y suscripciones a eventos
+* RF-0014	Sistema de mensajería Interna
 
 ## Considered Options
 
