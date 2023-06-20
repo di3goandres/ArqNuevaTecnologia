@@ -1,6 +1,6 @@
 # Visualizacion de datos
 
-* Status: accepted
+* Status: proposed
 * Deciders: Julian Luna, Diego Montealegre
 * Date: 2023-06-20
 

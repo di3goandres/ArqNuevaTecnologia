@@ -1,6 +1,6 @@
 # Visualizacion de datos
 
-* Status: accepted
+* Status: proposed
 * Deciders: Julian Luna, Diego Montealegre
 * Date: 2023-06-20
 
@@ -16,16 +16,14 @@ Se requiere de un modo de visualización para los siguientes contextos:
 
 ## Considered Options
 
-* MVC - Angular
 * MVC - React
 
 ## Decision Outcome
 
-Chosen option: "MVC"
+Chosen option: ""
 
-### Positive Consequences
+## Pros and Cons of the Options
 
-* Separación de responsabilidades
-* Reutilización de componentes: La división del código en modelos, vistas y controladores facilita la reutilización de componentes en diferentes partes de la aplicación. Por ejemplo, se puede utilizar el mismo modelo de datos en diferentes vistas o emplear diferentes controladores para manejar distintos escenarios de interacción. Esto aumenta la eficiencia y agilidad en el desarrollo
-* Facilidad de mantenimiento: El patrón MVC ayuda a reducir la complejidad del código y mejora la mantenibilidad de la aplicación. Al tener una separación clara de las responsabilidades, resulta más sencillo realizar cambios o mejoras en una parte del sistema sin afectar a las demás. Además, al contar con componentes bien definidos, la depuración y el seguimiento de errores se simplifican.
-* Flexibilidad y escalabilidad: La arquitectura MVC permite que cada componente pueda ser desarrollado, probado y modificado de forma independiente. Esto facilita la evolución y adaptación de la aplicación a medida que los requisitos cambian o se agregan nuevas funcionalidades. Además, la separación de responsabilidades facilita la escalabilidad, ya que es posible agregar nuevos modelos, vistas o controladores sin afectar los demás componentes.
+### MVC
+
+Ofrece una serie de ventajas que se alinean con los principios y beneficios del MVC. React promueve la modularidad, la reutilización de componentes, el flujo unidireccional de datos y proporciona un ecosistema robusto de herramientas y bibliotecas. Estas características hacen de React una opción popular y poderosa para el desarrollo de interfaces de usuario en aplicaciones web.
