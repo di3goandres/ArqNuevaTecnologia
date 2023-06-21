@@ -27,8 +27,7 @@ Registro y seguimiento de alertas: Es importante mantener un registro de todas l
 
 ## Considered Options
 
-* Publish / Subscriber
-* 
+* Observer
 
 ## Decision Outcome
 
@@ -60,14 +59,3 @@ Nos ayuda a manejar el tema de suscriptores, ya que los mensajes deben ser envia
 * Good, because Escalable
 * Bad, because Perdida de mensajes: si no hay suscriptores disponibles en el momento de la publicación.
 * Bad, because Sobrecarga de mensajes.
-
-### Chains of responsability
-
-Desde la solicitud hasta el envío del mensaje existen varios handlers
-
-* Good, because Desacoplamiento: permite desacoplar los componentes y receptores de las alertas.
-* Good, because Separación de responsabilidades: manejo de las solicitudes en diferentes objetos responsables de tareas específicas.
-* Good, because Reusabilidad: la cadena puede ser reutilizados en diferentes contextos. Promueve la reutilización de código.
-* Bad, because Perdida de mensajes.
-* Bad, because Rendimiento: entre más grande la cadena, el tiempo de procesamiento puede ser mayor.
-* Bad, because Seguimiento fallo: dificultad de seguir el flujo de ejecución. aumento de la complejidad y el acoplamiento
