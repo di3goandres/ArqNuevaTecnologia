@@ -28,6 +28,7 @@ Registro y seguimiento de alertas: Es importante mantener un registro de todas l
 ## Considered Options
 
 * Observer
+* Publish / Subscriber
 
 ## Decision Outcome
 
@@ -40,6 +41,9 @@ Flexibilidad en el manejo de suscripciones.
 * Escalabilidad/ Flexibilidad
 * Distribución de Mensajes
 * Extensibilidad
+* Distribuido
+* Los publicadodores no conocen ni dependen de los suscriptores
+* Los suscriptores se suscriben a ciertos tipos de eventos o canales de comunicación
 
 ### Negative Consequences
 

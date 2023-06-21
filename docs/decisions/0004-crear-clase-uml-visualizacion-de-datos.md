@@ -20,11 +20,10 @@ crear clase UML que sooprte la visualizacion de datos analiticos
 
 ## Decision Outcome
 
-Chosen option:  "Crear Clase UML"
+Chosen option: "Crear Clase UML"
 
 ## Pros and Cons of the Options
 
 ### Crear Clase UML
-
 
 se debe crear la clase UML para la visualizacion de datos analitcos, este contendra todo lo relacionado con datos en tiempo real.

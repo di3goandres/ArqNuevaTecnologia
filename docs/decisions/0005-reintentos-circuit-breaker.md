@@ -6,17 +6,15 @@
 
 ## Context and Problem Statement
 
-Se requiere de un modo de visualización para los siguientes contextos:
-1. Análisis de datos para toma de decisiones
-2. Monitoreo de sistemas en tiempo real.
+Se requiere que en caso de error se reintente la conexión entre el dispositivo IoT y el bróker
 
 ## Decision Drivers
 
-* RF-001 Componente de visualización en tiempo real
+* RF-0015 reintentos
 
 ## Considered Options
 
-* MVC - React
+* Circuit Breaker
 
 ## Decision Outcome
 
@@ -24,6 +22,8 @@ Chosen option: ""
 
 ## Pros and Cons of the Options
 
-### MVC
+### Circuit Breaker
 
-Ofrece una serie de ventajas que se alinean con los principios y beneficios del MVC. React promueve la modularidad, la reutilización de componentes, el flujo unidireccional de datos y proporciona un ecosistema robusto de herramientas y bibliotecas. Estas características hacen de React una opción popular y poderosa para el desarrollo de interfaces de usuario en aplicaciones web.
+* Good, because Mayor resiliencia: Evita el colapso del sistema y mejora la resiliencia frente a fallos en servicios externos
+* Good, because Tiempo de respuesta rápido: Permite respuestas rápidas al bloquear las solicitudes en lugar de esperar tiempos de espera excesivos.
+* Good, because Tolerancia a fallos: Proporciona una forma de gestionar y controlar las excepciones y fallos de un servicio externo, evitando la propagación de errores.
