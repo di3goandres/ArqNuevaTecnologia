@@ -1,8 +1,8 @@
-# Alertas y suscripciones
+# Patron alertas y suscripciones
 
-* Status: proposed
+* Status: accepted
 * Deciders: Julian Luna, Diego Montealegre
-* Date: 2023-06-17
+* Date: 2023-06-20
 
 ## Context and Problem Statement
 
@@ -26,8 +26,48 @@ Registro y seguimiento de alertas: Es importante mantener un registro de todas l
 * RF-0014	Sistema de mensajería Interna
 
 ## Considered Options
-* sistema de cola de mensajes
 
-## More Information
+* Publish / Subscriber
+* 
 
-utilizar tecnologías de cola de mensajes como RabbitMQ, Apache Kafka o ActiveMQ. Estas soluciones permiten publicar mensajes en una cola y suscribirse a ella para recibir las notificaciones correspondientes. Proporcionan una forma eficiente y escalable de enviar y recibir mensajes entre los componentes del sistema.
+## Decision Outcome
+
+Chosen option: "Publish / Subscriber", because Manera más eficiente para comunicar con los dispositivos receptores.
+Flexibilidad en el manejo de suscripciones.
+
+### Positive Consequences
+
+* Desacoplamiento:
+* Escalabilidad/ Flexibilidad
+* Distribución de Mensajes
+* Extensibilidad
+
+### Negative Consequences
+
+* Perdida de mensajes
+* Manejo de colas
+
+## Pros and Cons of the Options
+
+### Publish / Subscriber
+
+Nos ayuda a manejar el tema de suscriptores, ya que los mensajes deben ser enviados a estos.
+
+* Good, because Permite comunicación asíncrona
+* Good, because Se puede recibir notificaciones cuando se producen alertas
+* Good, because Múltiples destinatarios
+* Good, because Desacoplada
+* Good, because Escalable
+* Bad, because Perdida de mensajes: si no hay suscriptores disponibles en el momento de la publicación.
+* Bad, because Sobrecarga de mensajes.
+
+### Chains of responsability
+
+Desde la solicitud hasta el envío del mensaje existen varios handlers
+
+* Good, because Desacoplamiento: permite desacoplar los componentes y receptores de las alertas.
+* Good, because Separación de responsabilidades: manejo de las solicitudes en diferentes objetos responsables de tareas específicas.
+* Good, because Reusabilidad: la cadena puede ser reutilizados en diferentes contextos. Promueve la reutilización de código.
+* Bad, because Perdida de mensajes.
+* Bad, because Rendimiento: entre más grande la cadena, el tiempo de procesamiento puede ser mayor.
+* Bad, because Seguimiento fallo: dificultad de seguir el flujo de ejecución. aumento de la complejidad y el acoplamiento
