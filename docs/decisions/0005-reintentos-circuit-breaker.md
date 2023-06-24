@@ -10,11 +10,7 @@ Se requiere que en caso de error se reintente la conexión entre el dispositivo 
 
 ## Decision Drivers
 
-* RF-0015 reintentos
-
-## Considered Options
-
-* Circuit Breaker
+* RF-004.1 Manejo para el máximo de suscriptores para la mensajería 
 
 ## Decision Outcome
 
@@ -27,3 +23,8 @@ Chosen option: ""
 * Good, because Mayor resiliencia: Evita el colapso del sistema y mejora la resiliencia frente a fallos en servicios externos
 * Good, because Tiempo de respuesta rápido: Permite respuestas rápidas al bloquear las solicitudes en lugar de esperar tiempos de espera excesivos.
 * Good, because Tolerancia a fallos: Proporciona una forma de gestionar y controlar las excepciones y fallos de un servicio externo, evitando la propagación de errores.
+
+## More Information
+
+Driver: Component Circuit Breaker
+Libreria: Apiumhub
