@@ -13,6 +13,9 @@ crear clase UML que sooprte la visualizacion de datos analiticos
 ## Decision Drivers
 
 * RF-001 Componente de visualización en tiempo real
+* RF-003.1 Analítica predictiva de fallos
+* RF-003.2 Analítica para optimización
+* RF-003 Analítica tiempo real
 
 ## Considered Options
 

@@ -1,4 +1,4 @@
-# Circuit Breaker
+# Visualizacion de datos
 
 * Status: accepted
 * Deciders: Julian Luna, Diego Montealegre
@@ -10,11 +10,11 @@ Se requiere que en caso de error se reintente la conexión entre el dispositivo 
 
 ## Decision Drivers
 
-* RF-004.1 Manejo para el máximo de reintentos de mensajeria
+* RF-004.1 Manejo para el máximo de suscriptores para la mensajería 
 
 ## Decision Outcome
 
-Chosen option: "Circuit Breaker"
+Chosen option: ""
 
 ## Pros and Cons of the Options
 

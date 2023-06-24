@@ -1,4 +1,4 @@
-# 
+# Seleccion Algoritmos - Strategy
 
 * Status: accepted
 * Deciders: Julian Luna, Diego Montealegre
@@ -8,9 +8,13 @@
 
 Se debe crear un UML que contenga el patron strategy para crear diferentes tipos de algoritmos de prediccion, y de entrenamiento
 
+## Decision Drivers
+
+* RF-002 Seleccion Algoritmos
+
 ## Decision Outcome
 
-Chosen option: "", because Escogemos el patron strategy, ya que nos permite crear diferntes algoritmos tanto de predicciones como de entrenamiento
+Chosen option: "Strategy"
 
 ### Positive Consequences
 
