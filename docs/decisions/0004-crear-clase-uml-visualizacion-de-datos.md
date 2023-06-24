@@ -6,7 +6,7 @@
 
 ## Context and Problem Statement
 
-crear clase UML que sooprte la visualizacion de datos analiticos
+crear clase UML que soporte la visualizacion de datos analiticos
 1. Análisis de datos para toma de decisiones
 2. Monitoreo de sistemas en tiempo real.
 
