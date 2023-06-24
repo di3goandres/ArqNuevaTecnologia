@@ -1,4 +1,4 @@
-# Visualizacion de datos
+# Circuit Breaker
 
 * Status: accepted
 * Deciders: Julian Luna, Diego Montealegre
@@ -14,7 +14,7 @@ Se requiere que en caso de error se reintente la conexión entre el dispositivo 
 
 ## Decision Outcome
 
-Chosen option: ""
+Chosen option: "Circuit Breaker"
 
 ## Pros and Cons of the Options
 
