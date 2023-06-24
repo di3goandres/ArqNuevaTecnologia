@@ -15,15 +15,16 @@ Necesitamos recolectar los eventos que se generan en los diferentes dispositivos
 
 ## Considered Options
 
-* Event driven
+* Message Driven
 
 ## Decision Outcome
 
-Chosen option: ""
+Chosen option: "Event Driven"
 
 ## Pros and Cons of the Options
 
-### Event driven
+
+### Event Driven
 
 * Good, because Desacoplamiento: La arquitectura de eventos permite un mayor desacoplamiento entre los diferentes componentes del sistema. Cada componente puede enviar y recibir eventos de forma independiente, lo que reduce la dependencia directa entre ellos. Esto facilita la evolución y actualización de los componentes de manera individual, sin afectar al funcionamiento de todo el sistema.
 * Good, because Escalabilidad: Al utilizar una arquitectura de eventos, los componentes pueden escalar de manera independiente según la carga de trabajo. Los eventos se pueden distribuir y procesar de forma paralela, lo que permite manejar grandes volúmenes de eventos de manera eficiente. Además, se pueden agregar o quitar componentes de manera fácil y flexible según las necesidades de escalabilidad del sistema.
