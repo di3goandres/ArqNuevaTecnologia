@@ -10,15 +10,15 @@ Se requiere almacenar los diferentes tipo de datos que recibimos desde los dispo
 
 ## Decision Drivers
 
-* RF-0011 Almacenamiento de datos
+* RF-009 Almacenamiento de datos
 
 ## Considered Options
 
-* SQL
+* NoSQL
 
 ## Decision Outcome
 
-Chosen option: ""
+Chosen option: "NoSQL"
 
 ## Pros and Cons of the Options
 
