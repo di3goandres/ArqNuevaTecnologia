@@ -10,7 +10,7 @@ Se requiere que en caso de error se reintente la conexión entre el dispositivo 
 
 ## Decision Drivers
 
-* RF-004.1 Manejo para el máximo de suscriptores para la mensajería 
+* RF-004.1 Manejo para el máximo de reintentos de mensajeria
 
 ## Decision Outcome
 
