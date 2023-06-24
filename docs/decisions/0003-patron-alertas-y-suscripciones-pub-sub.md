@@ -21,14 +21,13 @@ Registro y seguimiento de alertas: Es importante mantener un registro de todas l
 ## Decision Drivers
 
 * RF-004	Mensajería y suscripción a eventos
-* RF-008	Generación de alertas y notificaciones
-* RF-0010	Configuración de preferencias y suscripciones a eventos
-* RF-0014	Sistema de mensajería Interna
+* RF-007	Generación de alertas y notificaciones
+* RF-008	Configuración de preferencias y suscripciones a eventos
+* RF-0011	Sistema de mensajería Interna
 
 ## Considered Options
 
 * Observer
-* Publish / Subscriber
 
 ## Decision Outcome
 
