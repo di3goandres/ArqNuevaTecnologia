@@ -1,7 +1,11 @@
-# Crear Componentes Drivers IoT
+# patron factory sendores
 
 * Status: accepted
 * Deciders: Diego Montealegre, Julian Luna
+
+## Context and Problem Statement
+
+Necesitamos crear diferentes sensores,  y que estos puedan enviar informacion al cockpit con la informacion consolidada
 
 ## Decision Drivers
 
@@ -9,8 +13,7 @@
 
 ## Decision Outcome
 
-Chosen option: "Crear Component Driver IoT"
+Chosen option: """
 
 ## More Information
-* Driver Sensor A
-* Driver Sensor B
+* se usa el patron factory ya que nos permite encapsular la informacion enviada en un unico metodo
