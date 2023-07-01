@@ -1,4 +1,4 @@
-# patron factory sendores
+# patron factory sensores
 
 * Status: accepted
 * Deciders: Diego Montealegre, Julian Luna
